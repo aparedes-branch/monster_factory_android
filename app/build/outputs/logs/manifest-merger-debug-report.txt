@@ -1,0 +1,800 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-102:12
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/0b967abda35a6be8d5b9c66f24ffaba8/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/afc2a9d3cc6897b2738495e5bec6ae31/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aaafb6a714f76f60e40d44bc85f0155b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:17:1-31:12
+MERGED from [io.branch.sdk.android:library:3.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/87d29acffeb2afb0da1c95bd043c8e23/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/85d65efa19abb7251f119f968c65607b/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/287625b779dcb3e2af4cadd91bfc6ad5/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6f5998eea3a67022629abf0ea9fd90fb/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/226f6b4b063a1a5cc68101f4c30c2a7c/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23881a3a1a3911bbfdd215dfee316b45/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/424504fc17f1186c88a89df842ae35f0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2be849c9e076a1eede9696075c863911/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b517f08427c7f1d4e130a303341f26ee/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f9220a863384f5ef6547968498230ca2/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/45c06e88b9ed1369784e59a568a42f70/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6bed2cdef4ff2eddd718fd648e055f41/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f63616f053e5d441d95a49da96d88797/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/52874d6f703e0141dbd3f1cf193b13cb/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5abfe6c5f76cc6d4cf1eb6216a1183cb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ab7d49fef89cd97b8ed10712c229554d/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/969b5d1401f45e310df8417f63273581/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aa39423fbeaf3b186f2d42c5328b85c0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2ba90b7b301c661fe371994a965a2404/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/830b5bfe1cb5790dfc30effe3da02acb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ced8ff9da3aefa3fcda50fb1f4bb8179/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/44d70652b4e6e56d51880ba56009980d/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e9e16d9e5857be77a4ef364cb7368664/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ec8e097ef26a72450ed47ce1da6e8c0a/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1768d76e6e6be1f667bbb75f530ecfc9/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d04998763d666cfeb3c2f55b31ccc273/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7a3f28677e3af26f9382860e82f63849/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f79e75d23f525fb78138723d6e95e567/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/47b992813bce58935afd89a70be794a3/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a73686fdf08daf0104264445506e88c9/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4227043aa015d90c320fe96651666617/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/9a7e1173f39b52e7abc14b3b00fd87c6/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a714c1c24730140113b5a45d2e3eb73d/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-102:12
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-102:12
+	package
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-35
+	android:versionName
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:5-100:19
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/0b967abda35a6be8d5b9c66f24ffaba8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/0b967abda35a6be8d5b9c66f24ffaba8/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/afc2a9d3cc6897b2738495e5bec6ae31/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/afc2a9d3cc6897b2738495e5bec6ae31/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aaafb6a714f76f60e40d44bc85f0155b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aaafb6a714f76f60e40d44bc85f0155b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/287625b779dcb3e2af4cadd91bfc6ad5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/287625b779dcb3e2af4cadd91bfc6ad5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/226f6b4b063a1a5cc68101f4c30c2a7c/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/226f6b4b063a1a5cc68101f4c30c2a7c/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2be849c9e076a1eede9696075c863911/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2be849c9e076a1eede9696075c863911/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b517f08427c7f1d4e130a303341f26ee/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b517f08427c7f1d4e130a303341f26ee/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f9220a863384f5ef6547968498230ca2/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f9220a863384f5ef6547968498230ca2/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/45c06e88b9ed1369784e59a568a42f70/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/45c06e88b9ed1369784e59a568a42f70/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6bed2cdef4ff2eddd718fd648e055f41/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6bed2cdef4ff2eddd718fd648e055f41/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f63616f053e5d441d95a49da96d88797/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f63616f053e5d441d95a49da96d88797/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/52874d6f703e0141dbd3f1cf193b13cb/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/52874d6f703e0141dbd3f1cf193b13cb/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5abfe6c5f76cc6d4cf1eb6216a1183cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5abfe6c5f76cc6d4cf1eb6216a1183cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/969b5d1401f45e310df8417f63273581/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/969b5d1401f45e310df8417f63273581/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2ba90b7b301c661fe371994a965a2404/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2ba90b7b301c661fe371994a965a2404/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/830b5bfe1cb5790dfc30effe3da02acb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/830b5bfe1cb5790dfc30effe3da02acb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ced8ff9da3aefa3fcda50fb1f4bb8179/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ced8ff9da3aefa3fcda50fb1f4bb8179/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/44d70652b4e6e56d51880ba56009980d/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/44d70652b4e6e56d51880ba56009980d/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e9e16d9e5857be77a4ef364cb7368664/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e9e16d9e5857be77a4ef364cb7368664/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ec8e097ef26a72450ed47ce1da6e8c0a/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ec8e097ef26a72450ed47ce1da6e8c0a/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1768d76e6e6be1f667bbb75f530ecfc9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1768d76e6e6be1f667bbb75f530ecfc9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d04998763d666cfeb3c2f55b31ccc273/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d04998763d666cfeb3c2f55b31ccc273/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4227043aa015d90c320fe96651666617/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4227043aa015d90c320fe96651666617/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/9a7e1173f39b52e7abc14b3b00fd87c6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/9a7e1173f39b52e7abc14b3b00fd87c6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:25:5-29:19
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a714c1c24730140113b5a45d2e3eb73d/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a714c1c24730140113b5a45d2e3eb73d/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-41
+	android:largeHeap
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-33
+	android:icon
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-52
+activity#io.branch.branchster.SplashActivity
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:9-70:20
+	android:screenOrientation
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-49
+	android:label
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-45
+	android:launchMode
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-44
+	android:theme
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-53
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:27:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:branchsters
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:13-35:26
+data
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:17-54
+	android:host
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:56:52-71
+	android:scheme
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:23-51
+action#android.intent.action.VIEW
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-66
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:22-63
+category#android.intent.category.DEFAULT
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:14-73
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:24-70
+category#android.intent.category.BROWSABLE
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:14-75
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:24-72
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:scheme:branchsters
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:13-60:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:9hhh6.app.link+data:scheme:https
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:63:13-68:29
+	android:autoVerify
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:63:28-53
+activity#io.branch.branchster.MonsterViewerActivity
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:72:9-77:20
+	android:screenOrientation
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:76:13-49
+	android:launchMode
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:13-48
+	android:theme
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:13-70
+activity#io.branch.branchster.MonsterCreatorActivity
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:79:9-84:20
+	android:screenOrientation
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:83:13-49
+	android:launchMode
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:82:13-48
+	android:theme
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:80:13-71
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:86:9-107
+	android:value
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:86:66-105
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:86:20-65
+meta-data#io.branch.sdk.BranchKey
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:89:9-96
+	android:value
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:89:59-93
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:89:20-58
+meta-data#io.branch.sdk.BranchKey.test
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:90:9-106
+	android:value
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:90:64-103
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:90:20-63
+meta-data#io.branch.sdk.TestMode
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:91:9-82
+	android:value
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:91:58-79
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:91:20-57
+receiver#io.branch.referral.InstallListener
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:94:9-98:20
+	android:exported
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:94:69-92
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:94:19-68
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:95:13-97:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:96:25-76
+uses-sdk
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/0b967abda35a6be8d5b9c66f24ffaba8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/0b967abda35a6be8d5b9c66f24ffaba8/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/afc2a9d3cc6897b2738495e5bec6ae31/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/afc2a9d3cc6897b2738495e5bec6ae31/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aaafb6a714f76f60e40d44bc85f0155b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aaafb6a714f76f60e40d44bc85f0155b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:21:5-23:78
+MERGED from [io.branch.sdk.android:library:3.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/87d29acffeb2afb0da1c95bd043c8e23/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.sdk.android:library:3.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/87d29acffeb2afb0da1c95bd043c8e23/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/85d65efa19abb7251f119f968c65607b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/85d65efa19abb7251f119f968c65607b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/287625b779dcb3e2af4cadd91bfc6ad5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/287625b779dcb3e2af4cadd91bfc6ad5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6f5998eea3a67022629abf0ea9fd90fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6f5998eea3a67022629abf0ea9fd90fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/226f6b4b063a1a5cc68101f4c30c2a7c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/226f6b4b063a1a5cc68101f4c30c2a7c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23881a3a1a3911bbfdd215dfee316b45/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23881a3a1a3911bbfdd215dfee316b45/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/424504fc17f1186c88a89df842ae35f0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/424504fc17f1186c88a89df842ae35f0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2be849c9e076a1eede9696075c863911/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2be849c9e076a1eede9696075c863911/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b517f08427c7f1d4e130a303341f26ee/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b517f08427c7f1d4e130a303341f26ee/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f9220a863384f5ef6547968498230ca2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f9220a863384f5ef6547968498230ca2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/45c06e88b9ed1369784e59a568a42f70/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/45c06e88b9ed1369784e59a568a42f70/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6bed2cdef4ff2eddd718fd648e055f41/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/6bed2cdef4ff2eddd718fd648e055f41/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f63616f053e5d441d95a49da96d88797/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f63616f053e5d441d95a49da96d88797/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/52874d6f703e0141dbd3f1cf193b13cb/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/52874d6f703e0141dbd3f1cf193b13cb/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5abfe6c5f76cc6d4cf1eb6216a1183cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5abfe6c5f76cc6d4cf1eb6216a1183cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ab7d49fef89cd97b8ed10712c229554d/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ab7d49fef89cd97b8ed10712c229554d/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/969b5d1401f45e310df8417f63273581/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/969b5d1401f45e310df8417f63273581/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aa39423fbeaf3b186f2d42c5328b85c0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/aa39423fbeaf3b186f2d42c5328b85c0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2ba90b7b301c661fe371994a965a2404/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2ba90b7b301c661fe371994a965a2404/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/830b5bfe1cb5790dfc30effe3da02acb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/830b5bfe1cb5790dfc30effe3da02acb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ced8ff9da3aefa3fcda50fb1f4bb8179/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ced8ff9da3aefa3fcda50fb1f4bb8179/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/44d70652b4e6e56d51880ba56009980d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/44d70652b4e6e56d51880ba56009980d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e9e16d9e5857be77a4ef364cb7368664/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e9e16d9e5857be77a4ef364cb7368664/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ec8e097ef26a72450ed47ce1da6e8c0a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/ec8e097ef26a72450ed47ce1da6e8c0a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1768d76e6e6be1f667bbb75f530ecfc9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1768d76e6e6be1f667bbb75f530ecfc9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d04998763d666cfeb3c2f55b31ccc273/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d04998763d666cfeb3c2f55b31ccc273/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/77cf9a522ed40ebead6fa4d9349fb2a3/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7a3f28677e3af26f9382860e82f63849/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7a3f28677e3af26f9382860e82f63849/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f79e75d23f525fb78138723d6e95e567/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f79e75d23f525fb78138723d6e95e567/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/47b992813bce58935afd89a70be794a3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/47b992813bce58935afd89a70be794a3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a73686fdf08daf0104264445506e88c9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a73686fdf08daf0104264445506e88c9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4227043aa015d90c320fe96651666617/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4227043aa015d90c320fe96651666617/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/9a7e1173f39b52e7abc14b3b00fd87c6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/9a7e1173f39b52e7abc14b3b00fd87c6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a714c1c24730140113b5a45d2e3eb73d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a714c1c24730140113b5a45d2e3eb73d/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7674d21315273108cd3f31d4a1b5db04/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/68e6958d2ee803a8cbb389105c142920/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e5da4c94198859a2c8e8fc5855d3a93e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4359a7ce1ae8e19079a9ce1ab86935ac/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e083db75e6197d48de9b5ede74ac36bc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/b5aae545a98c70bba8e4637b532e2f8e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3f23d786dfc31c71e3ae6a98dbc4d6cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/e717ef01c5ae6dd54347a267f9124ef8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/46a70b50076ddd62d0885b8f9864f9f8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d0f6c53e4a2609816fe4ca40501c51e4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/23b7cf77f45aaf740f87b5a89c128d15/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3fa4eda70fd222095c5dde9f3b395a31/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:25.4.0] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a0b521630fdb6475b8d4633360f8d7db/AndroidManifest.xml:27:13-51
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/a4af0890eab5eee4104c01af974fd760/AndroidManifest.xml:7:18-90
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/4d8294d8a82691a0010f5eace80d201a/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3a543e5be2074d0ec9c8660496ddd319/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/86e9299ddb9e5fd83f31b1baf716e073/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/3b87660962ce7686610ec0dd4c6316ef/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/7af54a567107c4e88ad2926cfc641424/AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/36fa7ea2d9f430bc130e25cca0bff742/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c7864e530104fedd097e0dcbd5fba8c3/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5a25fbc38acff709ed45ae8893064829/AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/f357fdba714c6c02e3fa376ab2fb256d/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/2f793bf2f9c0e794d48ae1639ba922ed/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1d317bc5beccd7c48dfa9a9710d75af8/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.io.branch.branchster
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/1ad12be3aa5ac8571195c08a00fb483d/AndroidManifest.xml:26:13-31:29
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/154bb7970e0fc457e30f1249962fac6a/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/c73033f8e17782ffd1f17da3d3e93728/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:17-71
+permission#io.branch.branchster.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:26:22-76
+uses-permission#io.branch.branchster.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:io.branch.branchster
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:33:27-58
+category#io.branch.branchster
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/5c2f3acb2ab348f3194323a99a99dd75/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/8ec0ff4238224967fa81c678a73c4809/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/aparedes/.gradle/caches/transforms-2/files-2.1/d8bd5e200172702a32f946ff3cdd7f81/AndroidManifest.xml:20:20-65
