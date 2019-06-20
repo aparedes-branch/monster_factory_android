@@ -13,6 +13,7 @@ import io.branch.branchster.util.ColorController;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.referral.util.BranchEvent;
 
 /**
  * This class is where the user can create their own monster. It is the first that the user sees if
@@ -48,6 +49,10 @@ public class MonsterCreatorActivity extends Activity {
         monsterImageView_ = (MonsterImageView) findViewById(R.id.monster_img_view);
         monsterImageView_.setMonster(latestMonsterObj);
         editName.setText(latestMonsterObj.getMonsterName());
+
+        //track event
+        new BranchEvent("monster_edit")
+                .logEvent(getApplicationContext());
 
 
         // Go to the previous face when the user clicks the up arrow.

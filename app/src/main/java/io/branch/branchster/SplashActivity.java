@@ -14,10 +14,14 @@ import android.widget.TextView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
+import io.branch.referral.util.BranchEvent;
 
 public class SplashActivity extends Activity {
 
@@ -28,7 +32,6 @@ public class SplashActivity extends Activity {
     Context mContext;
     final int ANIM_DURATION = 1500;
 
-    MonsterPreferences prefs;
     MonsterObject deepLinkedMonster;
 
     @Override
@@ -51,7 +54,7 @@ public class SplashActivity extends Activity {
         super.onStart();
         Branch branch = Branch.getInstance();
 
-        // TODO: Initialize Branch session.
+        //Initialize Branch session.
         branch.initSession(new Branch.BranchReferralInitListener() {
             @Override
             public void onInitFinished(JSONObject referringParams, BranchError error) {
@@ -62,7 +65,20 @@ public class SplashActivity extends Activity {
                         if(referringParams.getBoolean("+clicked_branch_link")){
                             Log.i("BRANCH SDK", referringParams.toString());
                             //build monster
-//                            deepLinkedMonster = new MonsterObject();
+                            deepLinkedMonster = new MonsterObject();
+                            deepLinkedMonster.setMonsterName(referringParams.getString(MonsterPreferences.KEY_MONSTER_NAME));
+                            deepLinkedMonster.setMonsterDescription(referringParams.getString(MonsterPreferences.KEY_MONSTER_DESCRIPTION));
+                            deepLinkedMonster.setBodyIndex(referringParams.getInt(MonsterPreferences.KEY_BODY_INDEX));
+                            deepLinkedMonster.setColorIndex(referringParams.getInt(MonsterPreferences.KEY_COLOR_INDEX));
+                            deepLinkedMonster.setFaceIndex(referringParams.getInt(MonsterPreferences.KEY_FACE_INDEX));
+
+                            MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+                            prefs.saveMonster(deepLinkedMonster.monsterMetaData());
+
+                            //track event
+                            new BranchEvent("deep_linked_monster")
+                                    .addCustomDataProperty("monster_name", deepLinkedMonster.getMonsterName())
+                                    .logEvent(getApplicationContext());
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -73,7 +89,6 @@ public class SplashActivity extends Activity {
             }
         }, this.getIntent().getData(), this);
 
-        // TODO: If a monster was linked to, open the viewer Activity to that Monster.
         proceedToAppTransparent();
     }
 

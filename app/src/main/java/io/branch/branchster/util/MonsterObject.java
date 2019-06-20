@@ -82,7 +82,7 @@ public class MonsterObject implements Parcelable {
     public Map<String, String> prepareBranchDict() {
         Map<String, String> map = new HashMap<>();
 
-        map.put(MonsterPreferences.KEY_MONSTER_NAME, String.format("My Branchster: %s", monsterName));
+        map.put(MonsterPreferences.KEY_MONSTER_NAME, monsterName);
         map.put(MonsterPreferences.KEY_MONSTER_DESCRIPTION, monsterDescription);
         map.put(MonsterPreferences.KEY_MONSTER_IMAGE, getMonsterImage());
         map.put(MonsterPreferences.KEY_COLOR_INDEX, "" + colorIndex);
