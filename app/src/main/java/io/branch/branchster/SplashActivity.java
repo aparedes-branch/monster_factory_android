@@ -11,8 +11,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
+import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
@@ -25,6 +27,9 @@ public class SplashActivity extends Activity {
     ImageView imgSplash1, imgSplash2;
     Context mContext;
     final int ANIM_DURATION = 1500;
+
+    MonsterPreferences prefs;
+    MonsterObject deepLinkedMonster;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,13 +56,17 @@ public class SplashActivity extends Activity {
             @Override
             public void onInitFinished(JSONObject referringParams, BranchError error) {
                 if (error == null) {
-                    // params are the deep linked params associated with the link that the user clicked -> was re-directed to this app
-                    // params will be empty if no data found
-                    // ... insert custom logic here ...
-                    Log.i("BRANCH SDK", referringParams.toString());
                     // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
                     // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
-
+                    try {
+                        if(referringParams.getBoolean("+clicked_branch_link")){
+                            Log.i("BRANCH SDK", referringParams.toString());
+                            //build monster
+//                            deepLinkedMonster = new MonsterObject();
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 } else {
                     Log.i("BRANCH SDK", error.getMessage());
                 }

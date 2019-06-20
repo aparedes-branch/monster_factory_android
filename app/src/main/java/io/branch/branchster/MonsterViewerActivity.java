@@ -12,11 +12,21 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Map;
 
 import io.branch.branchster.fragment.InfoFragment;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.indexing.BranchUniversalObject;
+import io.branch.referral.Branch;
+import io.branch.referral.BranchError;
+import io.branch.referral.util.BRANCH_STANDARD_EVENT;
+import io.branch.referral.util.BranchEvent;
+import io.branch.referral.util.ContentMetadata;
+import io.branch.referral.util.LinkProperties;
 
 public class MonsterViewerActivity extends FragmentActivity implements InfoFragment.OnFragmentInteractionListener {
     static final int SEND_SMS = 12345;
@@ -74,6 +84,15 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void initUI() {
         myMonsterObject = getIntent().getParcelableExtra(MY_MONSTER_OBJ_KEY);
 
+        //track branch event monster_view with state information from monsterMetaData()
+        Map<String, String> monsterMetaData = myMonsterObject.monsterMetaData();
+
+        BranchEvent monsterViewedEvent = new BranchEvent("monster_view");
+        for(Map.Entry<String, String> entry : monsterMetaData.entrySet()){
+            monsterViewedEvent.addCustomDataProperty(entry.getKey(), entry.getValue());
+        }
+        monsterViewedEvent.logEvent(getApplicationContext());
+
         if (myMonsterObject != null) {
             String monsterName = getString(R.string.monster_name);
 
@@ -105,12 +124,57 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
 
-        String url = "http://example.com"; // TODO: Replace with Branch-generated shortUrl
+        //capture monster data via prepareBranchDict()
+        Map<String, String> monsterDictionary = myMonsterObject.prepareBranchDict();
 
-        Intent i = new Intent(Intent.ACTION_SEND);
-        i.setType("text/plain");
-        i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), url));
-        startActivityForResult(i, SEND_SMS);
+        //create payload (ContentMetadata) by mapping from monsterDictionary
+        ContentMetadata monsterData = new ContentMetadata();
+        for(Map.Entry<String, String> entry : monsterDictionary.entrySet()){
+            monsterData.addCustomMetadata(entry.getKey(), entry.getValue());
+        }
+
+        //create content reference - branch universal object to hold monster data
+        BranchUniversalObject buo = new BranchUniversalObject()
+                .setTitle(myMonsterObject.getMonsterName())
+                .setContentDescription(myMonsterObject.getMonsterDescription())
+                .setContentImageUrl(myMonsterObject.getMonsterImage())
+                .setContentIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
+                .setLocalIndexMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
+                .setContentMetadata(monsterData);
+
+        //create deep link
+        LinkProperties lp = new LinkProperties()
+                .setChannel("sms")
+                .setFeature("sharing");
+
+        //Branch-generated shortUrl generated from Branch dashboard Quick Links not needed when generating custom URL
+//        String url = "https://9hhh6.app.link/6L27DQiNEX";
+
+        buo.generateShortUrl(this, lp, new Branch.BranchLinkCreateListener() {
+            @Override
+            public void onLinkCreate(String url, BranchError error) {
+                if (error == null) {
+                    Log.i("BRANCH SDK", "got my Branch link to share: " + url);
+
+                    //track new event: branch_url_created
+                    new BranchEvent("branch_url_created")
+                            .addCustomDataProperty("url", url)
+                            .logEvent(getApplicationContext());
+
+                    //initialize intent, load monster name, and start activity
+                    Intent i = new Intent(Intent.ACTION_SEND);
+                    i.setType("text/plain");
+                    i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), url));
+                    startActivityForResult(i, SEND_SMS);
+                } else {
+                    //track new event: branch_error
+                    new BranchEvent("branch_error")
+                            .addCustomDataProperty("url", url)
+                            .logEvent(getApplicationContext());
+                }
+                progressBar.setVisibility(View.GONE);
+            }
+        });
 
         progressBar.setVisibility(View.GONE);
     }
@@ -118,7 +182,10 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (SEND_SMS == requestCode) {
             if (RESULT_OK == resultCode) {
-                // TODO: Track successful share via Branch.
+                //track share event via Branch
+                new BranchEvent(BRANCH_STANDARD_EVENT.SHARE).logEvent(getApplicationContext());
+
+                Log.i("SMS", "Branch event logged");
             }
         }
     }
