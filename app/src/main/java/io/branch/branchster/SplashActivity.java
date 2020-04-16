@@ -80,6 +80,9 @@ public class SplashActivity extends Activity {
                                     .addCustomDataProperty("monster_name", deepLinkedMonster.getMonsterName())
                                     .logEvent(getApplicationContext());
                         }
+                        else{
+                            Log.i("BRANCH SDK", referringParams.toString());
+                        }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }

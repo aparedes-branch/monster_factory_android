@@ -64,7 +64,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="9hhh6.app.link" />
+                <data android:scheme="https" android:host="aloysius.app.link" />
             </intent-filter>
 
         </activity>

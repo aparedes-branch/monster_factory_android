@@ -1,4 +1,0 @@
-#Thu Jun 20 15:45:41 PDT 2019
-base.0=/Users/aparedes/Documents/Projects/Android/Branchster-Android-No-SDK/app/build/intermediates/transforms/dexMerger/debug/2
-path.0=classes.dex
-renamed.0=classes.dex

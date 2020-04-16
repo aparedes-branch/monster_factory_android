@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:palette-v7:25.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3c9579171f46d6e0f35fc1befa26d9b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50e706d73c3f6673da14f446f05a58d5/palette-v7-25.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50e706d73c3f6673da14f446f05a58d5/palette-v7-25.2.0/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/palette-v7/25.2.0/3cc0a1e159ad288b0b7951fb236662f3d45c33c3/palette-v7-25.2.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/palette-v7/25.2.0/2e4e4df85a7281fb91c12284f1fb42acf0648017/palette-v7-25.2.0-sources.jar!/" />
     </SOURCES>
